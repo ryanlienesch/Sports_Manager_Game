@@ -1,0 +1,116 @@
+.xo-panel {
+    min-height: 20px;
+    margin-bottom: 9px;
+    border: 1px solid #e3e3e3;
+    background-color: #f8f8f8;
+    padding: 9px;
+    border-radius: 3px;
+}
+
+.xo-panel-white {
+    background-color: #ffffff;
+}
+
+.xo-panel-title {
+    font-size: 1.1em;
+}
+
+.xo-panel-body {
+    padding-top: 9px;
+    margin-top: 9px;
+    border-top: 1px solid #dcdcdc;
+}
+
+.xo-panel-body > *:last-child {
+    margin-bottom: 0;
+}
+
+.xo-panel-space {
+    margin-bottom: 9px;
+}
+
+.xo-panel-space > *:last-child {
+    margin-bottom: 0;
+}
+
+.xo-panel-no-space {
+    margin-bottom: 0;
+}
+
+.xo-panel-no-space > *:last-child {
+    margin-bottom: 0;
+}
+
+.xo-panel-list-group-item {
+    padding: 9px 9px;
+}
+
+.xo-h-panel-spacer {
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+.xo-alert {
+    padding: 9px;
+    margin: 0px;
+}
+
+.list-group-scrollable > .list-group-item:first-child {
+    border-top: 0;
+}
+
+.panel-body + .list-group-scrollable {
+    border-top: 1px #dddddd solid;
+}
+
+.dropdown-menu > li > a {
+    cursor: pointer;
+}
+
+.xo-pagination {
+    margin: 0;
+}
+
+.clickable, .nav, .pagination, .carousel a {
+    cursor: pointer;
+}
+
+.xo-hidden-input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/*.close {
+    float: none;
+}*/
+
+/* Allows tags to wrap nicely */
+.xo-tag {
+    padding-bottom: 9px;
+}
+
+/* Corrects gap caused by tag padding */
+.xo-tags-editor {
+    margin-bottom: -9px;
+}
+
+.xo-json-editor {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.xo-api-editor-display {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    font-weight: bold;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
